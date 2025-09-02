@@ -1,0 +1,45 @@
+Using LocalLogger is deprecated. The constructor API will change
+Checkpoint tracker file does not exist: %s /nfs/roberts/scratch/pi_hz27/tl688/ckpt_pathor1_1e6_moredata/checkpoints/latest_checkpointed_iteration.txt
+Training from scratch
+Training Progress:   0%|          | 0/810 [00:00<?, ?it/s]Unhandled error (suppress with 'RAY_IGNORE_UNHANDLED_ERRORS=1'): [36mray::WorkerDict.actor_rollout_compute_log_prob()[39m (pid=1510326, ip=10.18.20.39, actor_id=4635a1133984300ed333102101000000, repr=<verl.single_controller.ray.base.WorkerDict object at 0x1429d999e4d0>)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/single_controller/ray/base.py", line 645, in func
+    return getattr(self.worker_dict[key], name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/single_controller/base/decorator.py", line 540, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/workers/fsdp_workers.py", line 670, in compute_log_prob
+    output, entropys = self.actor.compute_log_prob(data=data, calculate_entropy=True)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/utils/debug/performance.py", line 78, in f
+    return self.log(decorated_function, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/utils/debug/performance.py", line 88, in log
+    output = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/workers/actor/dp_actor.py", line 300, in compute_log_prob
+    entropy, log_probs = self._forward_micro_batch(micro_batch, temperature=temperature, calculate_entropy=calculate_entropy)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nfs/roberts/project/pi_hz27/tl688/verl/verl/workers/actor/dp_actor.py", line 140, in _forward_micro_batch
+    output = self.actor_module(
+             ^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/torch/distributed/fsdp/fully_sharded_data_parallel.py", line 864, in forward
+    output = self._fsdp_wrapped_module(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/transformers/models/qwen2_5_vl/modeling_qwen2_5_vl.py", line 1761, in forward
+    raise ValueError(
+ValueError: Image features and image tokens do not match: tokens: 1944, features 2592

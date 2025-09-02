@@ -1,0 +1,6 @@
+{"time":"2025-08-14T02:07:23.656400402-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpsaldi_vn/port-2473514.txt","pid":2473514,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-08-14T02:07:23.656737745-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":2473514}
+{"time":"2025-08-14T02:07:23.656727327-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-2473514-2476246-959262585/socket","Net":"unix"}}
+{"time":"2025-08-14T02:07:23.842183301-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-08-14T02:07:23.84678365-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"kwvdh26b","id":"1(@)"}
+{"time":"2025-08-14T02:07:24.080544721-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"kwvdh26b","id":"1(@)"}

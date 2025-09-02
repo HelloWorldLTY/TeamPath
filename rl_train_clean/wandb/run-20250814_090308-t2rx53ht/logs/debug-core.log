@@ -1,0 +1,6 @@
+{"time":"2025-08-14T09:03:08.813447012-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmps7oii_rv/port-1631679.txt","pid":1631679,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-08-14T09:03:08.813812707-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":1631679}
+{"time":"2025-08-14T09:03:08.813781786-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1631679-1634493-782707436/socket","Net":"unix"}}
+{"time":"2025-08-14T09:03:08.963306719-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-08-14T09:03:08.971353979-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"t2rx53ht","id":"1(@)"}
+{"time":"2025-08-14T09:03:09.186044225-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"t2rx53ht","id":"1(@)"}

@@ -1,0 +1,125 @@
+{
+  "os":  "Linux-4.18.0-553.52.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-08-27T02:39:37.462610Z",
+  "args":  [
+    "--node-ip-address=10.18.20.43",
+    "--node-manager-port=37343",
+    "--object-store-name=/tmp/ray/session_2025-08-26_22-31-24_502035_231943/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-08-26_22-31-24_502035_231943/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=59133",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=42579",
+    "--gcs-address=10.18.20.43:58247",
+    "--session-name=session_2025-08-26_22-31-24_502035_231943",
+    "--temp-dir=/tmp/ray",
+    "--webui=",
+    "--cluster-id=a399a5aca695886aa3143833a69bf84007600709041acb65fa838ec3",
+    "--startup-token=24",
+    "--worker-launch-time-ms=1756261889119",
+    "--node-id=677b5fdad78ea5ba6fb1d42eb7911ff796ac5f08347650cab4a6e591",
+    "--runtime-env-hash=-1624044036",
+    "--enable-resource-isolation=false"
+  ],
+  "program":  "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/ray/_private/workers/default_worker.py",
+  "git":  {
+    "remote":  "https://github.com/volcengine/verl.git",
+    "commit":  "2bd291e5494db03ba358ef279a334c2f0829b979"
+  },
+  "email":  "tianyu.18@intl.zju.edu.cn",
+  "root":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+  "host":  "a1122u11n01.mghpcc.ycrc.yale.edu",
+  "executable":  "/home/tl688/.conda/envs/verl/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA H200",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "1082043183104",
+      "used":  "54059008"
+    }
+  },
+  "memory":  {
+    "total":  "2164086370304"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-d28ba8ea-8a07-b441-5057-b5d158665ec1"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-93ca5523-ff87-1840-064b-8425aa87ba08"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-9581cc25-acf4-46fa-b4f6-1aff39c1de6c"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-b6e7c5f3-207e-bab9-c824-9669cf7546d9"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "slurm":  {
+    "cluster_name":  "bouchet",
+    "conf":  "/var/lib/slurmconf/slurm.conf",
+    "cpus_on_node":  "35",
+    "cpus_per_task":  "35",
+    "gpus_on_node":  "4",
+    "gpus_per_node":  "4",
+    "gtids":  "0",
+    "hint":  "nomultithread",
+    "job_account":  "pi_hz27",
+    "job_cpus_per_node":  "35",
+    "job_end_time":  "1756434675",
+    "job_gid":  "1019130",
+    "job_gpus":  "0,1,5,6",
+    "job_id":  "1156696",
+    "job_name":  "pytorch",
+    "job_nodelist":  "a1122u11n01",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu_h200",
+    "job_qos":  "normal",
+    "job_start_time":  "1756261875",
+    "job_uid":  "19130",
+    "job_user":  "tl688",
+    "jobid":  "1156696",
+    "localid":  "0",
+    "mem_per_node":  "307200",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "a1122u11n01",
+    "nprocs":  "1",
+    "ntasks":  "1",
+    "ntasks_per_node":  "1",
+    "oom_kill_step":  "0",
+    "prio_process":  "0",
+    "procid":  "0",
+    "submit_dir":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+    "submit_host":  "login1.bouchet.ycrc.yale.edu",
+    "task_pid":  "231918",
+    "tasks_per_node":  "1",
+    "threads_per_core":  "1",
+    "topology_addr":  "hdrspine.a1120u45.a1122u11n01",
+    "topology_addr_pattern":  "switch.switch.node",
+    "tres_bind":  "gres/gpu:verbose,closest",
+    "tres_per_task":  "cpu=35"
+  },
+  "writerId":  "u80tpyrfjbd8ytpco9n3wtj2hgbsbesp"
+}

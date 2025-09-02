@@ -1,0 +1,8 @@
+{"time":"2025-08-13T06:34:02.900174636-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmplarlp3_b/port-2296045.txt","pid":2296045,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-08-13T06:34:02.900468191-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-2296045-2298736-2610698328/socket","Net":"unix"}}
+{"time":"2025-08-13T06:34:02.900525455-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":2296045}
+{"time":"2025-08-13T06:34:03.066586173-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-08-13T06:34:03.074353448-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"1uqawiac","id":"1(@)"}
+{"time":"2025-08-13T06:34:03.317206795-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"1uqawiac","id":"1(@)"}
+{"time":"2025-08-13T07:44:05.816143832-04:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"1uqawiac","id":"1(@)"}
+{"time":"2025-08-13T07:44:05.825474014-04:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"1uqawiac","id":"1(@)"}

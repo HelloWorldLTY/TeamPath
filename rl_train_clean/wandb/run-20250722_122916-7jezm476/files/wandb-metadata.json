@@ -1,0 +1,156 @@
+{
+  "os":  "Linux-4.18.0-553.52.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-07-22T16:29:16.600202Z",
+  "args":  [
+    "--node-ip-address=10.18.20.39",
+    "--node-manager-port=45703",
+    "--object-store-name=/tmp/ray/session_2025-07-22_12-23-05_912645_197892/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-07-22_12-23-05_912645_197892/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=56392",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=58703",
+    "--gcs-address=10.18.20.39:57676",
+    "--session-name=session_2025-07-22_12-23-05_912645_197892",
+    "--temp-dir=/tmp/ray",
+    "--webui=",
+    "--cluster-id=1e3a2fd7188f3655d6d6c5d80aba373ecbc3e326166f0bab7a2af50c",
+    "--startup-token=24",
+    "--worker-launch-time-ms=1753201389438",
+    "--node-id=d31571d13bc9316e87ea6271f5cff40fcf7fbb9376d20b578dd5c477",
+    "--runtime-env-hash=-1624044036",
+    "--enable-resource-isolation=false"
+  ],
+  "program":  "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/ray/_private/workers/default_worker.py",
+  "git":  {
+    "remote":  "https://github.com/volcengine/verl.git",
+    "commit":  "2bd291e5494db03ba358ef279a334c2f0829b979"
+  },
+  "email":  "tianyu.18@intl.zju.edu.cn",
+  "root":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+  "host":  "a1126u11n01.mghpcc.ycrc.yale.edu",
+  "executable":  "/home/tl688/.conda/envs/verl/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA H200",
+  "gpu_count":  8,
+  "disk":  {
+    "/":  {
+      "total":  "1082043183104",
+      "used":  "53923840"
+    }
+  },
+  "memory":  {
+    "total":  "2164086370304"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-6eb2f1a6-6a14-6337-32d3-9c71bd4d3f3f"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-0be4a02c-6b49-2225-1931-09070fb32034"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-59bccf9d-cd07-683d-663a-7dea018392d8"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-eaf750a9-946b-4367-c837-8eb3dc6f199f"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-84d956e4-029f-c118-5bab-fabb6976cd61"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-94ca84d3-28c3-91f2-c352-5ce73f197c93"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-d4ef5d20-331f-f8d5-2270-a7ba43b61c6b"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-0889fcbc-66bc-bfa0-b903-ad2a62ea1629"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "slurm":  {
+    "cluster_name":  "bouchet",
+    "conf":  "/var/lib/slurmconf/slurm.conf",
+    "cpus_on_node":  "40",
+    "cpus_per_task":  "40",
+    "export_env":  "NONE",
+    "get_user_env":  "1",
+    "gpus_on_node":  "8",
+    "gpus_per_node":  "8",
+    "gtids":  "0",
+    "hint":  "nomultithread",
+    "job_account":  "pi_hz27",
+    "job_cpus_per_node":  "40",
+    "job_end_time":  "1753287776",
+    "job_gid":  "1019130",
+    "job_gpus":  "0,1,2,3,4,5,6,7",
+    "job_id":  "244678",
+    "job_name":  "pytorch",
+    "job_nodelist":  "a1126u11n01",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu_h200",
+    "job_qos":  "normal",
+    "job_start_time":  "1753201376",
+    "job_uid":  "19130",
+    "job_user":  "tl688",
+    "jobid":  "244678",
+    "localid":  "0",
+    "mem_per_cpu":  "61440",
+    "mem_per_node":  "245760",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "a1126u11n01",
+    "nprocs":  "1",
+    "ntasks":  "1",
+    "ntasks_per_node":  "1",
+    "oom_kill_step":  "0",
+    "prio_process":  "0",
+    "procid":  "0",
+    "submit_dir":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+    "submit_host":  "a1128u41n01.mghpcc.ycrc.yale.edu",
+    "task_pid":  "197884",
+    "tasks_per_node":  "1",
+    "threads_per_core":  "1",
+    "topology_addr":  "hdrspine.a1120u45.a1126u11n01",
+    "topology_addr_pattern":  "switch.switch.node",
+    "tres_bind":  "gres/gpu:verbose,closest",
+    "tres_per_task":  "cpu=40"
+  },
+  "writerId":  "rda83b1bcg8w72fbqa193nw1eizrtq8n"
+}

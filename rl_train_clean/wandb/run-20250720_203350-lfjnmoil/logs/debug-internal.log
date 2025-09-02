@@ -1,0 +1,13 @@
+{"time":"2025-07-20T20:33:51.019443424-04:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-20T20:33:51.345984723-04:00","level":"INFO","msg":"stream: created new stream","id":"lfjnmoil"}
+{"time":"2025-07-20T20:33:51.346007939-04:00","level":"INFO","msg":"stream: started","id":"lfjnmoil"}
+{"time":"2025-07-20T20:33:51.346015881-04:00","level":"INFO","msg":"handler: started","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:33:51.346026606-04:00","level":"INFO","msg":"sender: started","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:33:51.346029203-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:37:59.552764495-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-20T20:37:59.862536464-04:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-07-20T20:37:59.866834332-04:00","level":"INFO","msg":"stream: closing","id":"lfjnmoil"}
+{"time":"2025-07-20T20:37:59.866844617-04:00","level":"INFO","msg":"handler: closed","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:37:59.86684978-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:37:59.866857124-04:00","level":"INFO","msg":"sender: closed","stream_id":"lfjnmoil"}
+{"time":"2025-07-20T20:37:59.867851569-04:00","level":"INFO","msg":"stream: closed","id":"lfjnmoil"}

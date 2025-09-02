@@ -1,0 +1,125 @@
+{
+  "os":  "Linux-4.18.0-553.52.1.el8_10.x86_64-x86_64-with-glibc2.28",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-08-25T15:59:13.423186Z",
+  "args":  [
+    "--node-ip-address=10.18.20.42",
+    "--node-manager-port=33879",
+    "--object-store-name=/tmp/ray/session_2025-08-25_11-50-40_760038_3192240/sockets/plasma_store",
+    "--raylet-name=/tmp/ray/session_2025-08-25_11-50-40_760038_3192240/sockets/raylet",
+    "--redis-address=None",
+    "--metrics-agent-port=65151",
+    "--logging-rotate-bytes=536870912",
+    "--logging-rotate-backup-count=5",
+    "--runtime-env-agent-port=53233",
+    "--gcs-address=10.18.20.42:46790",
+    "--session-name=session_2025-08-25_11-50-40_760038_3192240",
+    "--temp-dir=/tmp/ray",
+    "--webui=",
+    "--cluster-id=c2523fc238c4e34089795894ecc7b1ca876aaf468105eb87411a4f7b",
+    "--startup-token=24",
+    "--worker-launch-time-ms=1756137045517",
+    "--node-id=e0e29c851d9ab7ad1209f7a8f2694ae83932fe11f716c1c87f7301d5",
+    "--runtime-env-hash=-1624044036",
+    "--enable-resource-isolation=false"
+  ],
+  "program":  "/home/tl688/.conda/envs/verl/lib/python3.11/site-packages/ray/_private/workers/default_worker.py",
+  "git":  {
+    "remote":  "https://github.com/volcengine/verl.git",
+    "commit":  "2bd291e5494db03ba358ef279a334c2f0829b979"
+  },
+  "email":  "tianyu.18@intl.zju.edu.cn",
+  "root":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+  "host":  "a1122u02n01.mghpcc.ycrc.yale.edu",
+  "executable":  "/home/tl688/.conda/envs/verl/bin/python",
+  "cpu_count":  48,
+  "cpu_count_logical":  48,
+  "gpu":  "NVIDIA H200",
+  "gpu_count":  4,
+  "disk":  {
+    "/":  {
+      "total":  "1082043179008",
+      "used":  "54030336"
+    }
+  },
+  "memory":  {
+    "total":  "2164086358016"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-91f58a5c-8d35-cc93-dc94-40bf42eed738"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-8ee4cd1f-e71b-e37a-0e65-555a528ad5f3"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-745173b4-60a4-7252-aa2d-a61edac98031"
+    },
+    {
+      "name":  "NVIDIA H200",
+      "memoryTotal":  "150754820096",
+      "cudaCores":  16896,
+      "architecture":  "Hopper",
+      "uuid":  "GPU-b43dfc00-a24d-62f7-47b5-b5fddea3fca2"
+    }
+  ],
+  "cudaVersion":  "12.8",
+  "slurm":  {
+    "cluster_name":  "bouchet",
+    "conf":  "/var/lib/slurmconf/slurm.conf",
+    "cpus_on_node":  "40",
+    "cpus_per_task":  "40",
+    "gpus_on_node":  "4",
+    "gpus_per_node":  "4",
+    "gtids":  "0",
+    "hint":  "nomultithread",
+    "job_account":  "pi_hz27",
+    "job_cpus_per_node":  "40",
+    "job_end_time":  "1756309824",
+    "job_gid":  "1019130",
+    "job_gpus":  "1,2,3,6",
+    "job_id":  "1129753",
+    "job_name":  "pytorch",
+    "job_nodelist":  "a1122u02n01",
+    "job_num_nodes":  "1",
+    "job_partition":  "gpu_h200",
+    "job_qos":  "normal",
+    "job_start_time":  "1756137024",
+    "job_uid":  "19130",
+    "job_user":  "tl688",
+    "jobid":  "1129753",
+    "localid":  "0",
+    "mem_per_node":  "256000",
+    "nnodes":  "1",
+    "nodeid":  "0",
+    "nodelist":  "a1122u02n01",
+    "nprocs":  "1",
+    "ntasks":  "1",
+    "ntasks_per_node":  "1",
+    "oom_kill_step":  "0",
+    "prio_process":  "0",
+    "procid":  "0",
+    "submit_dir":  "/nfs/roberts/project/pi_hz27/tl688/verl",
+    "submit_host":  "login1.bouchet.ycrc.yale.edu",
+    "task_pid":  "3192232",
+    "tasks_per_node":  "1",
+    "threads_per_core":  "1",
+    "topology_addr":  "hdrspine.a1120u45.a1122u02n01",
+    "topology_addr_pattern":  "switch.switch.node",
+    "tres_bind":  "gres/gpu:verbose,closest",
+    "tres_per_task":  "cpu=40"
+  },
+  "writerId":  "2k4qpl4jfi3i3szui433i81h2zn8k5sl"
+}

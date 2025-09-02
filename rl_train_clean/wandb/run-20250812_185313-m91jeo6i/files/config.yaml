@@ -1,0 +1,445 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            ziaddfxklto67wunk17eigxbvysc3ged:
+                args:
+                    - --node-ip-address=10.18.20.39
+                    - --node-manager-port=35893
+                    - --object-store-name=/tmp/ray/session_2025-08-12_18-44-56_496325_1506631/sockets/plasma_store
+                    - --raylet-name=/tmp/ray/session_2025-08-12_18-44-56_496325_1506631/sockets/raylet
+                    - --redis-address=None
+                    - --metrics-agent-port=43905
+                    - --logging-rotate-bytes=536870912
+                    - --logging-rotate-backup-count=5
+                    - --runtime-env-agent-port=61271
+                    - --gcs-address=10.18.20.39:60460
+                    - --session-name=session_2025-08-12_18-44-56_496325_1506631
+                    - --temp-dir=/tmp/ray
+                    - --webui=
+                    - --cluster-id=1c0fc2cdea499d87be01bd6c785c3395b5a559b56e39fa905c1619f0
+                    - --startup-token=24
+                    - --worker-launch-time-ms=1755038700112
+                    - --node-id=e92cfb73b87235b1c881fa8c55a58e01d8ac44e6c5848f726dcf079e
+                    - --runtime-env-hash=-1624044036
+                    - --enable-resource-isolation=false
+                cpu_count: 48
+                cpu_count_logical: 48
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "1082043183104"
+                        used: "54013952"
+                email: tianyu.18@intl.zju.edu.cn
+                executable: /home/tl688/.conda/envs/verl/bin/python
+                git:
+                    commit: 2bd291e5494db03ba358ef279a334c2f0829b979
+                    remote: https://github.com/volcengine/verl.git
+                gpu: NVIDIA H200
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-6eb2f1a6-6a14-6337-32d3-9c71bd4d3f3f
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-0be4a02c-6b49-2225-1931-09070fb32034
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-59bccf9d-cd07-683d-663a-7dea018392d8
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-84d956e4-029f-c118-5bab-fabb6976cd61
+                host: a1126u11n01.mghpcc.ycrc.yale.edu
+                memory:
+                    total: "2164086370304"
+                os: Linux-4.18.0-553.52.1.el8_10.x86_64-x86_64-with-glibc2.28
+                program: /home/tl688/.conda/envs/verl/lib/python3.11/site-packages/ray/_private/workers/default_worker.py
+                python: CPython 3.11.13
+                root: /nfs/roberts/project/pi_hz27/tl688/verl
+                slurm:
+                    cluster_name: bouchet
+                    conf: /var/lib/slurmconf/slurm.conf
+                    cpus_on_node: "40"
+                    cpus_per_task: "40"
+                    gpus_on_node: "4"
+                    gpus_per_node: "4"
+                    gtids: "0"
+                    hint: nomultithread
+                    job_account: pi_hz27
+                    job_cpus_per_node: "40"
+                    job_end_time: "1755125082"
+                    job_gid: "1019130"
+                    job_gpus: 0,1,2,4
+                    job_id: "1039957"
+                    job_name: pytorch
+                    job_nodelist: a1126u11n01
+                    job_num_nodes: "1"
+                    job_partition: gpu_h200
+                    job_qos: normal
+                    job_start_time: "1755038682"
+                    job_uid: "19130"
+                    job_user: tl688
+                    jobid: "1039957"
+                    localid: "0"
+                    mem_per_node: "184320"
+                    nnodes: "1"
+                    nodeid: "0"
+                    nodelist: a1126u11n01
+                    nprocs: "1"
+                    ntasks: "1"
+                    ntasks_per_node: "1"
+                    oom_kill_step: "0"
+                    prio_process: "0"
+                    procid: "0"
+                    submit_dir: /nfs/roberts/project/pi_hz27/tl688/verl
+                    submit_host: login1.bouchet.ycrc.yale.edu
+                    task_pid: "1506600"
+                    tasks_per_node: "1"
+                    threads_per_core: "1"
+                    topology_addr: hdrspine.a1120u45.a1126u11n01
+                    topology_addr_pattern: switch.switch.node
+                    tres_bind: gres/gpu:verbose,closest
+                    tres_per_task: cpu=40
+                startedAt: "2025-08-12T22:53:13.962006Z"
+                writerId: ziaddfxklto67wunk17eigxbvysc3ged
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 11
+                - 30
+                - 41
+                - 49
+                - 50
+                - 51
+                - 71
+                - 95
+                - 98
+                - 105
+            "2":
+                - 1
+                - 11
+                - 30
+                - 41
+                - 49
+                - 50
+                - 51
+                - 71
+                - 95
+                - 98
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.21.0
+            "6": 4.51.1
+            "12": 0.21.0
+            "13": linux-x86_64
+actor_rollout_ref:
+    value:
+        actor:
+            checkpoint:
+                contents:
+                    - model
+                    - optimizer
+                    - extra
+            clip_ratio: 0.2
+            clip_ratio_c: 3
+            clip_ratio_high: 0.2
+            clip_ratio_low: 0.2
+            entropy_coeff: 0
+            fsdp_config:
+                fsdp_size: -1
+                offload_policy: false
+                optimizer_offload: false
+                param_offload: false
+                reshard_after_forward: true
+                wrap_policy:
+                    min_num_params: 0
+            grad_clip: 1
+            kl_loss_coef: 0.01
+            kl_loss_type: low_var_kl
+            loss_agg_mode: token-mean
+            optim:
+                lr: 1e-06
+                lr_warmup_steps: -1
+                lr_warmup_steps_ratio: 0
+                min_lr_ratio: 0
+                num_cycles: 0.5
+                total_training_steps: 810
+                warmup_style: constant
+                weight_decay: 0.01
+            ppo_epochs: 1
+            ppo_max_token_len_per_gpu: 16384
+            ppo_micro_batch_size: null
+            ppo_micro_batch_size_per_gpu: 8
+            ppo_mini_batch_size: 128
+            shuffle: false
+            strategy: fsdp
+            ulysses_sequence_parallel_size: 1
+            use_dynamic_bsz: false
+            use_kl_loss: true
+            use_torch_compile: true
+        hybrid_engine: true
+        model:
+            enable_activation_offload: false
+            enable_gradient_checkpointing: true
+            external_lib: null
+            lora_alpha: 16
+            lora_rank: 0
+            path: WenchuanZhang/Patho-R1-7B
+            target_modules: all-linear
+            trust_remote_code: false
+            use_fused_kernels: false
+            use_liger: false
+            use_remove_padding: true
+            use_shm: false
+        ref:
+            fsdp_config:
+                param_offload: true
+                reshard_after_forward: true
+                wrap_policy:
+                    min_num_params: 0
+            log_prob_max_token_len_per_gpu: 16384
+            log_prob_micro_batch_size: null
+            log_prob_micro_batch_size_per_gpu: 8
+            log_prob_use_dynamic_bsz: false
+            strategy: fsdp
+            ulysses_sequence_parallel_size: 1
+            use_torch_compile: true
+        rollout:
+            disable_log_stats: true
+            do_sample: true
+            dtype: bfloat16
+            enable_chunked_prefill: true
+            enforce_eager: true
+            engine_kwargs:
+                sglang:
+                    attention_backend: null
+                    disable_cuda_graph: true
+                    max_prefill_tokens: 8192
+                    max_running_requests: 16
+                    watchdog_timeout: 1800
+                vllm:
+                    swap_space: null
+            free_cache_engine: true
+            gpu_memory_utilization: 0.6
+            ignore_eos: false
+            layered_summon: false
+            limit_images: 1
+            load_format: dummy_dtensor
+            log_prob_max_token_len_per_gpu: 16384
+            log_prob_micro_batch_size: null
+            log_prob_micro_batch_size_per_gpu: 8
+            log_prob_use_dynamic_bsz: false
+            max_model_len: null
+            max_num_batched_tokens: 8192
+            max_num_seqs: 1024
+            mode: sync
+            multi_turn:
+                completion_callback: null
+                enable: false
+                format: chatml
+                max_turns: null
+                tool_config_path: null
+            "n": 4
+            name: sglang
+            prompt_length: 2048
+            response_length: 2048
+            temperature: 1
+            tensor_model_parallel_size: 2
+            top_k: -1
+            top_p: 1
+            use_fire_sampling: false
+            val_kwargs:
+                do_sample: false
+                "n": 1
+                temperature: 0
+                top_k: -1
+                top_p: 1
+algorithm:
+    value:
+        adv_estimator: grpo
+        gamma: 1
+        kl_ctrl:
+            horizon: 10000
+            kl_coef: 0.001
+            target_kl: 0.1
+            type: fixed
+        kl_penalty: kl
+        lam: 1
+        norm_adv_by_std_in_grpo: true
+        pf_ppo:
+            reweight_method: pow
+            weight_pow: 2
+        use_kl_in_reward: false
+        use_pf_ppo: false
+critic:
+    value:
+        checkpoint:
+            contents:
+                - model
+                - optimizer
+                - extra
+        cliprange_value: 0.5
+        forward_max_token_len_per_gpu: 32768
+        forward_micro_batch_size: null
+        forward_micro_batch_size_per_gpu: null
+        grad_clip: 1
+        loss_agg_mode: token-mean
+        model:
+            enable_activation_offload: false
+            enable_gradient_checkpointing: true
+            external_lib: null
+            fsdp_config:
+                fsdp_size: -1
+                offload_policy: false
+                optimizer_offload: false
+                param_offload: false
+                reshard_after_forward: true
+                wrap_policy:
+                    min_num_params: 0
+            lora_alpha: 16
+            lora_rank: 0
+            path: ~/models/deepseek-llm-7b-chat
+            target_modules: all-linear
+            tokenizer_path: WenchuanZhang/Patho-R1-7B
+            trust_remote_code: false
+            use_remove_padding: false
+            use_shm: false
+        optim:
+            lr: 1e-05
+            lr_warmup_steps_ratio: 0
+            min_lr_ratio: null
+            total_training_steps: 810
+            warmup_style: constant
+            weight_decay: 0.01
+        ppo_epochs: 1
+        ppo_max_token_len_per_gpu: 32768
+        ppo_micro_batch_size: null
+        ppo_micro_batch_size_per_gpu: null
+        ppo_mini_batch_size: 128
+        rollout_n: 4
+        shuffle: false
+        strategy: fsdp
+        ulysses_sequence_parallel_size: 1
+        use_dynamic_bsz: false
+custom_reward_function:
+    value:
+        name: compute_score
+        path: .//verl/utils/reward_score/path.py
+data:
+    value:
+        custom_cls:
+            name: null
+            path: null
+        filter_overlong_prompts: true
+        filter_overlong_prompts_workers: 1
+        image_key: images
+        max_prompt_length: 2048
+        max_response_length: 2048
+        prompt_key: prompt
+        return_full_prompt: false
+        return_raw_chat: false
+        return_raw_input_ids: false
+        reward_fn_key: data_source
+        shuffle: true
+        tokenizer: null
+        train_batch_size: 128
+        train_files:
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.0.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.1.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.2.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.3.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.4.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.5.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.6.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.7.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.8.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.9.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.10.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.11.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.12.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.13.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.14.parquet
+            - path_reason_data_4tianyu_16ch/path_reason_mcqa_train.15.parquet
+        truncation: error
+        trust_remote_code: false
+        use_shm: false
+        val_batch_size: 128
+        val_files: path_reason_data_4tianyu/path_reason_mcqa_train.127.parquet
+        validation_shuffle: false
+        video_key: videos
+ray_init:
+    value:
+        num_cpus: null
+        timeline_json_file: null
+reward_model:
+    value:
+        enable: false
+        forward_max_token_len_per_gpu: 32768
+        launch_reward_fn_async: false
+        max_length: null
+        micro_batch_size: null
+        micro_batch_size_per_gpu: null
+        model:
+            external_lib: null
+            fsdp_config:
+                fsdp_size: -1
+                param_offload: false
+                reshard_after_forward: true
+                wrap_policy:
+                    min_num_params: 0
+            input_tokenizer: WenchuanZhang/Patho-R1-7B
+            path: ~/models/FsfairX-LLaMA3-RM-v0.1
+            trust_remote_code: false
+            use_fused_kernels: false
+            use_remove_padding: false
+            use_shm: false
+        reward_manager: naive
+        sandbox_fusion:
+            max_concurrent: 64
+            url: null
+        strategy: fsdp
+        ulysses_sequence_parallel_size: 1
+        use_dynamic_bsz: false
+trainer:
+    value:
+        balance_batch: true
+        critic_warmup: 0
+        default_hdfs_dir: null
+        default_local_dir: /nfs/roberts/scratch/pi_hz27/tl688/ckpt_pathor1_1e6_moredata/checkpoints
+        del_local_ckpt_after_load: false
+        device: cuda
+        experiment_name: pathtest1
+        log_val_generations: 0
+        logger:
+            - console
+            - wandb
+        max_actor_ckpt_to_keep: null
+        max_critic_ckpt_to_keep: null
+        n_gpus_per_node: 4
+        nnodes: 1
+        project_name: testpath
+        ray_wait_register_center_timeout: 300
+        resume_from_path: null
+        resume_mode: auto
+        rollout_data_dir: /nfs/roberts/scratch/pi_hz27/tl688/ckpt_pathor1_1e6_moredata/rollout_data
+        save_freq: 40
+        test_freq: -1
+        total_epochs: 5
+        total_training_steps: null
+        val_before_train: false
+        validation_data_dir: /nfs/roberts/scratch/pi_hz27/tl688/ckpt_pathor1_1e6_moredata/validation_data
