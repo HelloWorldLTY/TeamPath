@@ -1,6 +1,0 @@
-{"time":"2025-08-09T21:49:14.121585073-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpm2jrv8fk/port-1727909.txt","pid":1727909,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
-{"time":"2025-08-09T21:49:14.121931307-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":1727909}
-{"time":"2025-08-09T21:49:14.121928179-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1727909-1730625-1260254437/socket","Net":"unix"}}
-{"time":"2025-08-09T21:49:14.273655624-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
-{"time":"2025-08-09T21:49:14.2814633-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"ryzl2lp0","id":"1(@)"}
-{"time":"2025-08-09T21:49:14.5081478-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"ryzl2lp0","id":"1(@)"}

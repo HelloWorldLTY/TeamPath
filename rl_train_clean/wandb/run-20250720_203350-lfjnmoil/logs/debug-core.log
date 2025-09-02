@@ -1,8 +1,0 @@
-{"time":"2025-07-20T20:33:50.870518674-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpibm5ikik/port-4102754.txt","pid":4102754,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
-{"time":"2025-07-20T20:33:50.870877316-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":4102754}
-{"time":"2025-07-20T20:33:50.870845516-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-4102754-4106286-3301290415/socket","Net":"unix"}}
-{"time":"2025-07-20T20:33:51.007250765-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
-{"time":"2025-07-20T20:33:51.016999767-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"lfjnmoil","id":"1(@)"}
-{"time":"2025-07-20T20:33:51.346011539-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"lfjnmoil","id":"1(@)"}
-{"time":"2025-07-20T20:37:59.866458718-04:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"lfjnmoil","id":"1(@)"}
-{"time":"2025-07-20T20:37:59.868668292-04:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"lfjnmoil","id":"1(@)"}

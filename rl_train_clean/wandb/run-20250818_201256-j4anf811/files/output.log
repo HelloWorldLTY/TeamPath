@@ -1,4 +1,0 @@
-Using LocalLogger is deprecated. The constructor API will change
-Checkpoint tracker file does not exist: %s /nfs/roberts/scratch/pi_hz27/tl688/ckpt_pathor1_1e6_pathinstructelarge_save60/checkpoints/latest_checkpointed_iteration.txt
-Training from scratch
-Training Progress:   0%|          | 0/815 [00:00<?, ?it/s]

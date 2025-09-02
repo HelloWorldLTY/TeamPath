@@ -1,8 +1,0 @@
-{"time":"2025-07-31T04:58:40.870369382-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpcay436lb/port-953970.txt","pid":953970,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
-{"time":"2025-07-31T04:58:40.870839392-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":953970}
-{"time":"2025-07-31T04:58:40.870807315-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-953970-957478-3993967258/socket","Net":"unix"}}
-{"time":"2025-07-31T04:58:41.017580727-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
-{"time":"2025-07-31T04:58:41.027690867-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"q2bzwerb","id":"1(@)"}
-{"time":"2025-07-31T04:58:41.379397281-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"q2bzwerb","id":"1(@)"}
-{"time":"2025-07-31T05:27:34.53301884-04:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"q2bzwerb","id":"1(@)"}
-{"time":"2025-07-31T05:27:34.534845666-04:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"q2bzwerb","id":"1(@)"}

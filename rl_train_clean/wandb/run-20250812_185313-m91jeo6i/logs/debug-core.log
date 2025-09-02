@@ -1,8 +1,0 @@
-{"time":"2025-08-12T18:53:14.075759031-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp9nrmch3s/port-1508704.txt","pid":1508704,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
-{"time":"2025-08-12T18:53:14.076066368-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":1508704}
-{"time":"2025-08-12T18:53:14.076062777-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1508704-1511610-116172699/socket","Net":"unix"}}
-{"time":"2025-08-12T18:53:14.220343014-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
-{"time":"2025-08-12T18:53:14.228186406-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"m91jeo6i","id":"1(@)"}
-{"time":"2025-08-12T18:53:14.455478061-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"m91jeo6i","id":"1(@)"}
-{"time":"2025-08-12T18:53:52.409107944-04:00","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"m91jeo6i","id":"1(@)"}
-{"time":"2025-08-12T18:53:52.411011852-04:00","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"m91jeo6i","id":"1(@)"}

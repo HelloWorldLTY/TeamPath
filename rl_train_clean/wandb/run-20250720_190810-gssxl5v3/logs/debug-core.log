@@ -1,7 +1,0 @@
-{"time":"2025-07-20T19:08:10.867374298-04:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpiv_kyxrj/port-3580335.txt","pid":3580335,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
-{"time":"2025-07-20T19:08:10.867659963-04:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-3580335-3583788-584795790/socket","Net":"unix"}}
-{"time":"2025-07-20T19:08:10.867675686-04:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":3580335}
-{"time":"2025-07-20T19:08:11.054420924-04:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
-{"time":"2025-07-20T19:08:11.060430335-04:00","level":"INFO","msg":"handleInformInit: received","streamId":"gssxl5v3","id":"1(@)"}
-{"time":"2025-07-20T19:08:11.382530016-04:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"gssxl5v3","id":"1(@)"}
-{"time":"2025-07-20T19:08:25.840023377-04:00","level":"INFO","msg":"server: parent process exited, terminating service process"}
