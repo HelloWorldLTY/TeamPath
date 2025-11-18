@@ -1,5 +1,5 @@
-# CoPath 🤝
-This is the official code repo for the paper: CoPath: Building MultiModal Pathology Experts with Reasoning AI Copilots.
+# TeamPath 🤝
+This is the official code repo for the paper: Building MultiModal Pathology Experts with Reasoning AI Copilots.
 
 ## Installation
 
@@ -34,7 +34,7 @@ We thank the developers of [verl](https://github.com/volcengine/verl), [Llama-fa
 
 ## Citation
 ```
-
+TBD
 ```
 
 
