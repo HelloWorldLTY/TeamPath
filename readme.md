@@ -23,6 +23,8 @@ The weights will be released at [here](https://huggingface.co/Pathstudy) after p
 
 Please refer our folder with names **rl_train** and **sft** for more details. We implement the framework with modified [verl](https://github.com/volcengine/verl) and [Llama-factory](https://github.com/hiyouga/LLaMA-Factory/tree/main), respectively. Moreover, we also support [trl](https://github.com/huggingface/trl/tree/main) and the codes will be provided upon request.
 
+Please do not use the original huggingface token provided in this repo, which is expired. You need to replace it by your own token.
+
 ## Tutorials
 
 We have provided several demo notebooks, which can be found in folder **clean_tutorial**
