@@ -36,7 +36,14 @@ We thank the developers of [verl](https://github.com/volcengine/verl), [Llama-fa
 
 ## Citation
 ```
-TBD
+@misc{liu2025teampathbuildingmultimodalpathology,
+      title={TeamPath: Building MultiModal Pathology Experts with Reasoning AI Copilots}, 
+      author={Tianyu Liu and Weihao Xuan and Hao Wu and Peter Humphrey and Marcello DiStasio and Heli Qi and Rui Yang and Simeng Han and Tinglin Huang and Fang Wu and Nan Liu and Irene Li and Hua Xu and Hongyu Zhao},
+      year={2025},
+      eprint={2511.17652},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2511.17652}, 
+}
 ```
 
 
