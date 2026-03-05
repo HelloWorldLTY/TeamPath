@@ -1,0 +1,50 @@
+### model
+model_name_or_path: /home/tl688/tl688_proj/yale_proj/pathor1_revised_brain
+image_max_pixels: 150528
+video_max_pixels: 16384
+trust_remote_code: true
+use_fast_tokenizer: false
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+freeze_vision_tower: true
+freeze_multi_modal_projector: true
+freeze_language_model: false
+deepspeed: examples/deepspeed/ds_z3_config.json
+
+### dataset
+dataset: saromas_train_full  #gliomas_train_full #saromas_train_full 
+template: qwen2_vl
+cutoff_len: 8192
+max_samples: 90000
+overwrite_cache: true
+preprocessing_num_workers: 14
+dataloader_num_workers: 14
+
+### output
+output_dir: /nfs/roberts/scratch/pi_hz27/tl688/saves/pathor1-7b_sacroms_15ep_noval_1e5_new_full/full/sft #/nfs/roberts/scratch/pi_hz27/tl688/saves/pathor1-7b_gliomas_15ep_noval_1e5_full/full/sft #/nfs/roberts/scratch/pi_hz27/tl688/saves/pathor1-7b_sacroms_15ep_noval_1e5_full/full/sft  #/nfs/roberts/scratch/pi_hz27/tl688/saves/pathor1-7b_brain15ep_noval_1e5_full/full/sft
+logging_steps: 10
+save_steps: 500
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 16
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-5
+num_train_epochs: 20 #15.0 #3 for brain
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+val_size: 0.1
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 500

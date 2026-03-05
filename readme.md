@@ -15,15 +15,19 @@ conda env update -f verl.yml
 
 The installation process in a personal computer will be 10 minutes, but we highly recommend using a High Performance Computer (HPC) for experiments.
 
+If you want to finetune the model for summarization and cross modality generation, please refer [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory) for installation.
+
 ## Accessing weights
 
 The weights will be released at [here](https://huggingface.co/Pathstudy) after peer review.
 
 ## Training
 
-Please refer our folder with names **rl_train** and **sft** for more details. We implement the framework with modified [verl](https://github.com/volcengine/verl) and [Llama-factory](https://github.com/hiyouga/LLaMA-Factory/tree/main), respectively. Moreover, we also support [trl](https://github.com/huggingface/trl/tree/main) and the codes will be provided upon request.
+Please refer our folder with names **rl_train** and **sft** for more details. We implement the framework with modified [verl](https://github.com/volcengine/verl) and [Llama-factory](https://github.com/hiyouga/LLaMA-Factory/tree/main), respectively. Moreover, we also support [trl](https://github.com/huggingface/trl/tree/main) and the codes will be provided upon request. Please do not use the original huggingface token provided in this repo, which is expired. You need to replace it by your own token. 
 
-Please do not use the original huggingface token provided in this repo, which is expired. You need to replace it by your own token.
+**rl_train**  is used for reinforcement learning, and please follow the setting and setup the pipeline, then choose GRPO as the policy model.
+
+**sft** is used for supervised fine-tuning with multimodal data, please follow the setting in **README.md** and use the multimodal training code **ft_pathor1_generatecell.sh** for training.
 
 ## Tutorials
 
