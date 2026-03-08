@@ -33,6 +33,10 @@ Please refer our folder with names **rl_train** and **sft** for more details. We
 
 We have provided several demo notebooks, which can be found in folder **clean_tutorial**
 
+## Computation resource
+
+We tested that based on a single NVIDIA A100 (80GB) GPU, TeamPath can make inferences for one sample within 11s.
+
 
 ## Acknowledgement
 
@@ -49,6 +53,5 @@ We thank the developers of [verl](https://github.com/volcengine/verl), [Llama-fa
       url={https://arxiv.org/abs/2511.17652}, 
 }
 ```
-
 
 
