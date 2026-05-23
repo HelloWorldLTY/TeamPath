@@ -51,6 +51,10 @@ We have provided several demo notebooks, which can be found in folder **clean_tu
 
 We tested that based on a single NVIDIA A100 (80GB) GPU, TeamPath can make inferences for one sample within 11s.
 
+## Computation resource
+
+We tested that based on a single NVIDIA A100 (80GB) GPU, TeamPath can make inferences for one sample within 11s.
+
 
 ## Acknowledgement
 
