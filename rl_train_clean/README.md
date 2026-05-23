@@ -21,6 +21,41 @@
 
 <h1 style="text-align: center;">verl: Volcano Engine Reinforcement Learning for LLMs</h1>
 
+## TeamPath RL quickstart
+
+This folder is the TeamPath reinforcement-learning workspace. It vendors a modified `verl` tree and adds TeamPath-specific data, launch, and reward-function wiring for multimodal pathology reasoning.
+
+Use `test_run_newdata.sh` as the main TeamPath example. It launches:
+
+```bash
+python -m verl.trainer.main_ppo \
+  algorithm.adv_estimator=grpo \
+  data.image_key=images \
+  actor_rollout_ref.rollout.name=sglang \
+  actor_rollout_ref.rollout.n=4 \
+  custom_reward_function.path=./verl/utils/reward_score/path.py \
+  custom_reward_function.name=compute_score
+```
+
+Before running it, update these variables in the script:
+
+- `DATA_DIR`: directory containing preprocessed parquet shards, for example `path_reason_mcqa_train.0.parquet`.
+- `LOG_SAVE_DIR`: output directory for checkpoints, rollouts, validation data, and Hydra logs.
+- `PROJECT_NAME` and `EXP_NAME`: experiment names for tracking.
+- `WANDB_API_KEY` and `HF_TOKEN`: your own credentials. Do not rely on old tokens in copied scripts.
+
+Expected RL parquet fields:
+
+- `data_source`: `path_reason` for TeamPath pathology data.
+- `prompt`: chat-format messages. For multimodal data, include `<image>` in the user content.
+- `images`: list of image objects or paths that can be loaded by the processor.
+- `ability`: task label such as `pathology`.
+- `reward_model`: dictionary with `style: rule` and `ground_truth`.
+
+The custom reward function is `verl/utils/reward_score/path.py`. It extracts the last `<answer>...</answer>` block, scores single-letter MCQA ground truths by exact match, and scores longer text ground truths with BLEU. The preprocessing template should ask the model to return `<think>...</think><answer>...</answer>` with no extra text outside the tags.
+
+Data preprocessing details live in `../data_processing/README.md` and `../data_processing/tutorial.ipynb`.
+
 verl is a flexible, efficient and production-ready RL training library for large language models (LLMs).
 
 verl is the open-source version of **[HybridFlow: A Flexible and Efficient RLHF Framework](https://arxiv.org/abs/2409.19256v2)** paper.
