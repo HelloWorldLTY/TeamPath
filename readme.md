@@ -19,7 +19,7 @@ If you want to finetune the model for summarization and cross modality generatio
 
 ## Accessing weights
 
-The weights will be released at [here](https://huggingface.co/Pathstudy) after peer review.
+The weights are released at [here](https://huggingface.co/Pathstudy).
 
 ## Training
 
